@@ -20,8 +20,6 @@ export interface OrderTableRowProps {
 }
 
 export function OrderTableRow({ order }: OrderTableRowProps) {
-  console.log(order)
-
   return (
     <TableRow>
       <TableCell>
